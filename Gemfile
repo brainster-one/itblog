@@ -18,6 +18,8 @@ group :assets do
   # gem 'therubyracer'
 
   gem 'uglifier', '>= 1.0.3'
+	gem 'execjs'
+	gem 'therubyracer', :platform => :ruby  
 end
 
 gem 'jquery-rails'
@@ -33,8 +35,6 @@ gem 'jquery-rails'
 
 # Deploy with Capistrano
 gem 'capistrano'
-gem 'execjs'
-gem 'therubyracer', :platform => :ruby
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
