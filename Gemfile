@@ -15,11 +15,10 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer'
+  gem 'therubyracer'
 
   gem 'uglifier', '>= 1.0.3'
-	gem 'execjs'
-	gem 'therubyracer', :platform => :ruby  
+#	gem 'therubyracer', :platform => :ruby  
 end
 
 gem 'jquery-rails'
@@ -31,7 +30,8 @@ gem 'jquery-rails'
 # gem 'jbuilder'
 
 # Use unicorn as the web server
-# gem 'unicorn'
+gem 'unicorn'
+gem 'execjs'
 
 # Deploy with Capistrano
 gem 'capistrano'
